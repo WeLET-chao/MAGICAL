@@ -1,0 +1,823 @@
+mkdir: cannot create directory 'gds': File exists
+[WRN 2025-12-22 14:02:54     3 sec]  Ideaplace: Using file parser readSymFile. This is designed for internal debugging only and may not be kept maintained 
+[DBG 2025-12-22 14:02:54     3 sec]  mark net VSS as vss 
+[WRN 2025-12-22 14:02:54     3 sec]  Ideaplace: Using file parser readSymNetFile. This is designed for internal debugging only and may not be kept maintained 
+[INF 2025-12-22 14:02:54     3 sec]  Symnet parser: reading ./Core_test_flow.symnet...
+[INF 2025-12-22 14:02:54     3 sec]  ParserSymNet:: left net intm 11
+, right net intp 12
+[INF 2025-12-22 14:02:54     3 sec]  ParserSymNet:: left net INP 1
+, right net INM 0
+[INF 2025-12-22 14:02:54     3 sec]  ParserSymNet:: left net OUTP 3
+, right net OUTM 2
+[INF 2025-12-22 14:02:54     3 sec]  ParserSymNet:: left net net047 14
+, right net net037 13
+[INF 2025-12-22 14:02:54     0 sec]  Ideaplace: Entering global placement...
+[INF 2025-12-22 14:02:54     0 sec]  NlpWnconj::initBoundaryParams: automatical set boundary to be Box:x = [-7.98436,7.98436];y = [-9.39336,9.39336]: 
+[DBG 2025-12-22 14:02:54     0 sec]  SigPathMgr: add cell 0 Core_test_flow_MP1c  pin 0 0-> cell 17 Core_test_flow_M15 pin 59 2 -> cell 17 Core_test_flow_M15 pin 57 0 -> cell 11 Core_test_flow_M13 -> pin 37  0
+[DBG 2025-12-22 14:02:54     0 sec]  SigPathMgr: add cell 0 Core_test_flow_MP1c  pin 0 0-> cell 16 Core_test_flow_M17 pin 55 2 -> cell 16 Core_test_flow_M17 pin 53 0 -> cell 12 Core_test_flow_M12 -> pin 40  0
+[DBG 2025-12-22 14:02:54     0 sec]  SigPathMgr: add cell 1 Core_test_flow_M20  pin 4 0-> cell 22 Core_test_flow_M18 pin 79 2 -> cell 22 Core_test_flow_M18 pin 77 0 -> cell 11 Core_test_flow_M13 -> pin 37  0
+[DBG 2025-12-22 14:02:54     0 sec]  SigPathMgr: add cell 1 Core_test_flow_M20  pin 4 0-> cell 15 Core_test_flow_M19 pin 51 2 -> cell 15 Core_test_flow_M19 pin 49 0 -> cell 12 Core_test_flow_M12 -> pin 40  0
+[DBG 2025-12-22 14:02:54     0 sec]  SigPathMgr: add cell 4 Core_test_flow_MP1a  pin 16 0-> cell 24 Core_test_flow_M2 pin 84 0 -> cell 24 Core_test_flow_M2 pin 86 2 -> cell 8 Core_test_flow_M10 -> pin 28  0
+[DBG 2025-12-22 14:02:54     0 sec]  SigPathMgr: add cell 4 Core_test_flow_MP1a  pin 16 0-> cell 24 Core_test_flow_M2 pin 84 0 -> cell 24 Core_test_flow_M2 pin 86 2 -> cell 13 Core_test_flow_M11 -> pin 43  0
+[DBG 2025-12-22 14:02:54     0 sec]  SigPathMgr: add cell 5 Core_test_flow_MP1b  pin 20 0-> cell 23 Core_test_flow_M0 pin 81 0 -> cell 23 Core_test_flow_M0 pin 83 2 -> cell 8 Core_test_flow_M10 -> pin 28  0
+[DBG 2025-12-22 14:02:54     0 sec]  SigPathMgr: add cell 5 Core_test_flow_MP1b  pin 20 0-> cell 23 Core_test_flow_M0 pin 81 0 -> cell 23 Core_test_flow_M0 pin 83 2 -> cell 13 Core_test_flow_M11 -> pin 43  0
+[INF 2025-12-22 14:02:54     0 sec]  Ideaplace global placement:: number of operators 337, hpwl 16 ovl 300 oob 0 asym 3 sigFlow 0 power 2 crf 
+[INF 2025-12-22 14:02:54     0 sec]  First order NLP: iter 0 
+[INF 2025-12-22 14:02:55     1 sec]  First order NLP: iter 1 
+[INF 2025-12-22 14:02:55     1 sec]  First order NLP: iter 2 
+[INF 2025-12-22 14:02:55     1 sec]  First order NLP: iter 3 
+[INF 2025-12-22 14:02:56     2 sec]  First order NLP: iter 4 
+[INF 2025-12-22 14:02:56     2 sec]  First order NLP: iter 5 
+[INF 2025-12-22 14:02:56     2 sec]  First order NLP: iter 6 
+[INF 2025-12-22 14:02:56     2 sec]  First order NLP: iter 7 
+[INF 2025-12-22 14:02:56     2 sec]  First order NLP: iter 8 
+[INF 2025-12-22 14:02:57     3 sec]  First order NLP: iter 9 
+[INF 2025-12-22 14:02:57     3 sec]  First order NLP: iter 10 
+[INF 2025-12-22 14:02:57     3 sec]  First order NLP: iter 11 
+[INF 2025-12-22 14:02:57     3 sec]  First order NLP: iter 12 
+[INF 2025-12-22 14:02:57     3 sec]  First order NLP: iter 13 
+[INF 2025-12-22 14:02:57     3 sec]  First order NLP: iter 14 
+[INF 2025-12-22 14:02:58     4 sec]  First order NLP: iter 15 
+[INF 2025-12-22 14:02:58     4 sec]  First order NLP: iter 16 
+[INF 2025-12-22 14:02:58     4 sec]  First order NLP: iter 17 
+[INF 2025-12-22 14:02:58     4 sec]  First order NLP: iter 18 
+[INF 2025-12-22 14:02:58     4 sec]  First order NLP: iter 19 
+[INF 2025-12-22 14:02:58     4 sec]  First order NLP: iter 20 
+[INF 2025-12-22 14:02:59     5 sec]  First order NLP: iter 21 
+[INF 2025-12-22 14:02:59     5 sec]  First order NLP: iter 22 
+[INF 2025-12-22 14:02:59     5 sec]  First order NLP: iter 23 
+[INF 2025-12-22 14:02:59     5 sec]  First order NLP: iter 24 
+[INF 2025-12-22 14:02:59     5 sec]  First order NLP: iter 25 
+[INF 2025-12-22 14:02:59     5 sec]  First order NLP: iter 26 
+[INF 2025-12-22 14:03:00     6 sec]  First order NLP: iter 27 
+[INF 2025-12-22 14:03:00     6 sec]  First order NLP: iter 28 
+[INF 2025-12-22 14:03:00     6 sec]  First order NLP: iter 29 
+[INF 2025-12-22 14:03:00     6 sec]  First order NLP: iter 30 
+[INF 2025-12-22 14:03:00     6 sec]  First order NLP: iter 31 
+[INF 2025-12-22 14:03:01     7 sec]  First order NLP: iter 32 
+[INF 2025-12-22 14:03:01     7 sec]  First order NLP: iter 33 
+[INF 2025-12-22 14:03:01     7 sec]  First order NLP: iter 34 
+[INF 2025-12-22 14:03:01     7 sec]  First order NLP: iter 35 
+[INF 2025-12-22 14:03:01     7 sec]  First order NLP: iter 36 
+[INF 2025-12-22 14:03:01     7 sec]  First order NLP: iter 37 
+[INF 2025-12-22 14:03:02     8 sec]  First order NLP: iter 38 
+[INF 2025-12-22 14:03:02     8 sec]  First order NLP: iter 39 
+[INF 2025-12-22 14:03:02     8 sec]  First order NLP: iter 40 
+[INF 2025-12-22 14:03:02     8 sec]  First order NLP: iter 41 
+[INF 2025-12-22 14:03:02     8 sec]  First order NLP: iter 42 
+[INF 2025-12-22 14:03:02     8 sec]  First order NLP: iter 43 
+[INF 2025-12-22 14:03:03     9 sec]  First order NLP: iter 44 
+[INF 2025-12-22 14:03:03     9 sec]  First order NLP: iter 45 
+[INF 2025-12-22 14:03:03     9 sec]  First order NLP: iter 46 
+[INF 2025-12-22 14:03:03     9 sec]  First order NLP: iter 47 
+[INF 2025-12-22 14:03:03     9 sec]  First order NLP: iter 48 
+[INF 2025-12-22 14:03:04    10 sec]  First order NLP: iter 49 
+[INF 2025-12-22 14:03:04    10 sec]  First order NLP: iter 50 
+[INF 2025-12-22 14:03:04    10 sec]  First order NLP: iter 51 
+[INF 2025-12-22 14:03:04    10 sec]  First order NLP: iter 52 
+[INF 2025-12-22 14:03:04    10 sec]  First order NLP: iter 53 
+[INF 2025-12-22 14:03:04    10 sec]  First order NLP: iter 54 
+[INF 2025-12-22 14:03:05    11 sec]  First order NLP: iter 55 
+[INF 2025-12-22 14:03:05    11 sec]  First order NLP: iter 56 
+[INF 2025-12-22 14:03:05    11 sec]  First order NLP: iter 57 
+[INF 2025-12-22 14:03:05    11 sec]  First order NLP: iter 58 
+[INF 2025-12-22 14:03:05    11 sec]  First order NLP: iter 59 
+[INF 2025-12-22 14:03:06    12 sec]  First order NLP: iter 60 
+[INF 2025-12-22 14:03:06    12 sec]  First order NLP: iter 61 
+[INF 2025-12-22 14:03:06    12 sec]  First order NLP: iter 62 
+[INF 2025-12-22 14:03:06    12 sec]  First order NLP: iter 63 
+[INF 2025-12-22 14:03:06    12 sec]  First order NLP: iter 64 
+[INF 2025-12-22 14:03:06    12 sec]  First order NLP: iter 65 
+[INF 2025-12-22 14:03:07    13 sec]  First order NLP: iter 66 
+[INF 2025-12-22 14:03:07    13 sec]  First order NLP: iter 67 
+[INF 2025-12-22 14:03:07    13 sec]  First order NLP: iter 68 
+[INF 2025-12-22 14:03:07    13 sec]  First order NLP: iter 69 
+[INF 2025-12-22 14:03:07    13 sec]  First order NLP: iter 70 
+[INF 2025-12-22 14:03:08    14 sec]  First order NLP: iter 71 
+[INF 2025-12-22 14:03:08    14 sec]  First order NLP: iter 72 
+[INF 2025-12-22 14:03:08    14 sec]  First order NLP: iter 73 
+[INF 2025-12-22 14:03:08    14 sec]  First order NLP: iter 74 
+[INF 2025-12-22 14:03:08    14 sec]  First order NLP: iter 75 
+[INF 2025-12-22 14:03:08    14 sec]  First order NLP: iter 76 
+[INF 2025-12-22 14:03:09    15 sec]  First order NLP: iter 77 
+[INF 2025-12-22 14:03:09    15 sec]  First order NLP: iter 78 
+[INF 2025-12-22 14:03:09    15 sec]  First order NLP: iter 79 
+[INF 2025-12-22 14:03:09    15 sec]  First order NLP: iter 80 
+[INF 2025-12-22 14:03:09    15 sec]  First order NLP: iter 81 
+[INF 2025-12-22 14:03:09    15 sec]  First order NLP: iter 82 
+[INF 2025-12-22 14:03:10    16 sec]  First order NLP: iter 83 
+[INF 2025-12-22 14:03:10    16 sec]  First order NLP: iter 84 
+[INF 2025-12-22 14:03:10    16 sec]  First order NLP: iter 85 
+[INF 2025-12-22 14:03:10    16 sec]  First order NLP: iter 86 
+[INF 2025-12-22 14:03:10    16 sec]  First order NLP: iter 87 
+[INF 2025-12-22 14:03:11    17 sec]  First order NLP: iter 88 
+[INF 2025-12-22 14:03:11    17 sec]  First order NLP: iter 89 
+[INF 2025-12-22 14:03:11    17 sec]  First order NLP: iter 90 
+[INF 2025-12-22 14:03:11    17 sec]  First order NLP: iter 91 
+[INF 2025-12-22 14:03:11    17 sec]  First order NLP: iter 92 
+[INF 2025-12-22 14:03:11    17 sec]  First order NLP: iter 93 
+[INF 2025-12-22 14:03:12    18 sec]  First order NLP: iter 94 
+[INF 2025-12-22 14:03:12    18 sec]  First order NLP: iter 95 
+[INF 2025-12-22 14:03:12    18 sec]  First order NLP: iter 96 
+[INF 2025-12-22 14:03:12    18 sec]  First order NLP: iter 97 
+[INF 2025-12-22 14:03:12    18 sec]  First order NLP: iter 98 
+[INF 2025-12-22 14:03:13    19 sec]  First order NLP: iter 99 
+[INF 2025-12-22 14:03:13    19 sec]  First order NLP: iter 100 
+[INF 2025-12-22 14:03:13    19 sec]  First order NLP: iter 101 
+[INF 2025-12-22 14:03:13    19 sec]  First order NLP: iter 102 
+[INF 2025-12-22 14:03:13    19 sec]  First order NLP: iter 103 
+[INF 2025-12-22 14:03:13    19 sec]  First order NLP: iter 104 
+[INF 2025-12-22 14:03:14    20 sec]  First order NLP: iter 105 
+[INF 2025-12-22 14:03:14    20 sec]  First order NLP: iter 106 
+[INF 2025-12-22 14:03:14    20 sec]  First order NLP: iter 107 
+[INF 2025-12-22 14:03:14    20 sec]  First order NLP: iter 108 
+[INF 2025-12-22 14:03:14    20 sec]  First order NLP: iter 109 
+[INF 2025-12-22 14:03:15    21 sec]  First order NLP: iter 110 
+[INF 2025-12-22 14:03:15    21 sec]  First order NLP: iter 111 
+[INF 2025-12-22 14:03:15    21 sec]  First order NLP: iter 112 
+[INF 2025-12-22 14:03:15    21 sec]  First order NLP: iter 113 
+[INF 2025-12-22 14:03:15    21 sec]  Ideaplace: Entering legalization and detailed placement...
+[INF 2025-12-22 14:03:15    21 sec]  CG legalizer: legalize horizontal LP...
+[INF 2025-12-22 14:03:15    21 sec]  LP legalization solver: LP optimal 
+[INF 2025-12-22 14:03:15    21 sec]  CG legalizer: legalize vertical LP...
+[INF 2025-12-22 14:03:15    21 sec]  LP legalization solver: LP optimal 
+[INF 2025-12-22 14:03:15    21 sec]  CG legalizer: detailed placement horizontal LP...
+[INF 2025-12-22 14:03:15    21 sec]  LP legalization solver: LP optimal 
+[INF 2025-12-22 14:03:15    21 sec]  CG legalizer: detailed placement vertical LP...
+[INF 2025-12-22 14:03:15    21 sec]  LP legalization solver: LP optimal 
+[INF 2025-12-22 14:03:15    21 sec]  CG legalizer: detailed placement horizontal LP...
+[INF 2025-12-22 14:03:15    21 sec]  LP legalization solver: LP optimal 
+[INF 2025-12-22 14:03:15    21 sec]  CG legalizer: detailed placement vertical LP...
+[INF 2025-12-22 14:03:15    21 sec]  LP legalization solver: LP optimal 
+[INF 2025-12-22 14:03:15    21 sec]  Ideaplace: Assigning IO pin...
+[INF 2025-12-22 14:03:15    21 sec]  IdeaPlaceEx:: HPWL 443370 
+[INF 2025-12-22 14:03:15    21 sec]  IdeaPlaceEx:: HPWL with virtual pin: 443370 
+[INF 2025-12-22 14:03:15    21 sec]  
+
+
+OVERFLOW: crf 37200 
+ HPWL: path 0 
+ 
+
+[INF 2025-12-22 14:03:15    21 sec]  Ideaplace: Aligning the placement to grid...
+[INF 2025-12-22 14:03:15    21 sec]  Align to grid 200 
+[INF 2025-12-22 14:03:15    21 sec]  Alignment symaxis 46500 
+[INF 2025-12-22 14:03:15    21 sec]  Ideaplace: finished alignment
+[INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 0 Core_test_flow_MP1c center 46500 32500
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 1 Core_test_flow_M20 center 46500 28300
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 2 Core_test_flow_M7 center 54100 30300
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 3 Core_test_flow_M5 center 38900 30300
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 4 Core_test_flow_MP1a center 31500 32500
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 5 Core_test_flow_MP1b center 61500 32500
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 6 Core_test_flow_C1 center 68100 16800
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 7 Core_test_flow_C0 center 24900 16800
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 8 Core_test_flow_M10 center 46500 24500
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 9 Core_test_flow_M9 center 51900 25700
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 10 Core_test_flow_M6 center 41100 25700
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 11 Core_test_flow_M13 center 50100 12800
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 12 Core_test_flow_M12 center 42900 12800
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 13 Core_test_flow_M11 center 46500 16900
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 14 Core_test_flow_M4 center 50300 29100
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 15 Core_test_flow_M19 center 42700 16500
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 16 Core_test_flow_M17 center 49100 20700
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 17 Core_test_flow_M15 center 43900 20700
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 18 Core_test_flow_M25 center 74500 26100
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 19 Core_test_flow_M23 center 18500 26100
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 20 Core_test_flow_M3 center 36100 26100
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 21 Core_test_flow_M1 center 56900 26100
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 22 Core_test_flow_M18 center 50300 16500
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 23 Core_test_flow_M0 center 65700 27200
+ [INF 2025-12-22 14:03:15    21 sec]  IDEAPLACE::align cell 24 Core_test_flow_M2 center 27300 27200
+ ========================================================
+    MAGICAL: Machine Generated Analog IC Layout            
+        https://github.com/magical-eda/MAGICAL
+========================================================
+[I] parameters = {'spectre_netlist': 'ota1.sp', 'hspice_netlist': None, 'simple_tech_file': '../mockPDK/techfile.simple', 'resultDir': './'}
+PnR: working on  Core_test_flow
+add pin 0 to cell Core_test_flow_MP1c
+add pin 1 to cell Core_test_flow_MP1c
+add pin 2 to cell Core_test_flow_MP1c
+add pin 3 to cell Core_test_flow_MP1c
+add pin 0 to cell Core_test_flow_M20
+add pin 1 to cell Core_test_flow_M20
+add pin 2 to cell Core_test_flow_M20
+add pin 3 to cell Core_test_flow_M20
+add pin 0 to cell Core_test_flow_M7
+add pin 1 to cell Core_test_flow_M7
+add pin 2 to cell Core_test_flow_M7
+add pin 3 to cell Core_test_flow_M7
+add pin 0 to cell Core_test_flow_M5
+add pin 1 to cell Core_test_flow_M5
+add pin 2 to cell Core_test_flow_M5
+add pin 3 to cell Core_test_flow_M5
+add pin 0 to cell Core_test_flow_MP1a
+add pin 1 to cell Core_test_flow_MP1a
+add pin 2 to cell Core_test_flow_MP1a
+add pin 3 to cell Core_test_flow_MP1a
+add pin 0 to cell Core_test_flow_MP1b
+add pin 1 to cell Core_test_flow_MP1b
+add pin 2 to cell Core_test_flow_MP1b
+add pin 3 to cell Core_test_flow_MP1b
+add pin 0 to cell Core_test_flow_C1
+add pin 1 to cell Core_test_flow_C1
+add pin 0 to cell Core_test_flow_C0
+add pin 1 to cell Core_test_flow_C0
+add pin 0 to cell Core_test_flow_M10
+add pin 1 to cell Core_test_flow_M10
+add pin 2 to cell Core_test_flow_M10
+add pin 0 to cell Core_test_flow_M9
+add pin 1 to cell Core_test_flow_M9
+add pin 2 to cell Core_test_flow_M9
+add pin 0 to cell Core_test_flow_M6
+add pin 1 to cell Core_test_flow_M6
+add pin 2 to cell Core_test_flow_M6
+add pin 0 to cell Core_test_flow_M13
+add pin 1 to cell Core_test_flow_M13
+add pin 2 to cell Core_test_flow_M13
+add pin 0 to cell Core_test_flow_M12
+add pin 1 to cell Core_test_flow_M12
+add pin 2 to cell Core_test_flow_M12
+add pin 0 to cell Core_test_flow_M11
+add pin 1 to cell Core_test_flow_M11
+add pin 2 to cell Core_test_flow_M11
+add pin 0 to cell Core_test_flow_M4
+add pin 1 to cell Core_test_flow_M4
+add pin 2 to cell Core_test_flow_M4
+add pin 0 to cell Core_test_flow_M19
+add pin 1 to cell Core_test_flow_M19
+add pin 2 to cell Core_test_flow_M19
+add pin 3 to cell Core_test_flow_M19
+add pin 0 to cell Core_test_flow_M17
+add pin 1 to cell Core_test_flow_M17
+add pin 2 to cell Core_test_flow_M17
+add pin 3 to cell Core_test_flow_M17
+add pin 0 to cell Core_test_flow_M15
+add pin 1 to cell Core_test_flow_M15
+add pin 2 to cell Core_test_flow_M15
+add pin 3 to cell Core_test_flow_M15
+add pin 0 to cell Core_test_flow_M25
+add pin 1 to cell Core_test_flow_M25
+add pin 2 to cell Core_test_flow_M25
+add pin 3 to cell Core_test_flow_M25
+add pin 0 to cell Core_test_flow_M23
+add pin 1 to cell Core_test_flow_M23
+add pin 2 to cell Core_test_flow_M23
+add pin 3 to cell Core_test_flow_M23
+add pin 0 to cell Core_test_flow_M3
+add pin 1 to cell Core_test_flow_M3
+add pin 2 to cell Core_test_flow_M3
+add pin 3 to cell Core_test_flow_M3
+add pin 0 to cell Core_test_flow_M1
+add pin 1 to cell Core_test_flow_M1
+add pin 2 to cell Core_test_flow_M1
+add pin 3 to cell Core_test_flow_M1
+add pin 0 to cell Core_test_flow_M18
+add pin 1 to cell Core_test_flow_M18
+add pin 2 to cell Core_test_flow_M18
+add pin 3 to cell Core_test_flow_M18
+add pin 0 to cell Core_test_flow_M0
+add pin 1 to cell Core_test_flow_M0
+add pin 2 to cell Core_test_flow_M0
+add pin 0 to cell Core_test_flow_M2
+add pin 1 to cell Core_test_flow_M2
+add pin 2 to cell Core_test_flow_M2
+computeAndAddPowerCurrentFlow
+allocate signal path 0
+add pin to signal path 0 Core_test_flow_MP1c 2
+add pin to signal path 0 Core_test_flow_MP1c 0
+add pin to signal path 0 Core_test_flow_M15 2
+add pin to signal path 0 Core_test_flow_M15 0
+add pin to signal path 0 Core_test_flow_M13 0
+add pin to signal path 0 Core_test_flow_M13 2
+allocate signal path 1
+add pin to signal path 1 Core_test_flow_MP1c 2
+add pin to signal path 1 Core_test_flow_MP1c 0
+add pin to signal path 1 Core_test_flow_M17 2
+add pin to signal path 1 Core_test_flow_M17 0
+add pin to signal path 1 Core_test_flow_M12 0
+add pin to signal path 1 Core_test_flow_M12 2
+allocate signal path 2
+add pin to signal path 2 Core_test_flow_M20 2
+add pin to signal path 2 Core_test_flow_M20 0
+add pin to signal path 2 Core_test_flow_M18 2
+add pin to signal path 2 Core_test_flow_M18 0
+add pin to signal path 2 Core_test_flow_M13 0
+add pin to signal path 2 Core_test_flow_M13 2
+allocate signal path 3
+add pin to signal path 3 Core_test_flow_M20 2
+add pin to signal path 3 Core_test_flow_M20 0
+add pin to signal path 3 Core_test_flow_M19 2
+add pin to signal path 3 Core_test_flow_M19 0
+add pin to signal path 3 Core_test_flow_M12 0
+add pin to signal path 3 Core_test_flow_M12 2
+allocate signal path 4
+add pin to signal path 4 Core_test_flow_M7 2
+add pin to signal path 4 Core_test_flow_M7 0
+add pin to signal path 4 Core_test_flow_M4 0
+add pin to signal path 4 Core_test_flow_M4 2
+allocate signal path 5
+add pin to signal path 5 Core_test_flow_MP1a 2
+add pin to signal path 5 Core_test_flow_MP1a 0
+add pin to signal path 5 Core_test_flow_M2 0
+add pin to signal path 5 Core_test_flow_M2 2
+add pin to signal path 5 Core_test_flow_M10 0
+add pin to signal path 5 Core_test_flow_M10 2
+allocate signal path 6
+add pin to signal path 6 Core_test_flow_MP1a 2
+add pin to signal path 6 Core_test_flow_MP1a 0
+add pin to signal path 6 Core_test_flow_M2 0
+add pin to signal path 6 Core_test_flow_M2 2
+add pin to signal path 6 Core_test_flow_M11 0
+add pin to signal path 6 Core_test_flow_M11 2
+allocate signal path 7
+add pin to signal path 7 Core_test_flow_MP1b 2
+add pin to signal path 7 Core_test_flow_MP1b 0
+add pin to signal path 7 Core_test_flow_M0 0
+add pin to signal path 7 Core_test_flow_M0 2
+add pin to signal path 7 Core_test_flow_M10 0
+add pin to signal path 7 Core_test_flow_M10 2
+allocate signal path 8
+add pin to signal path 8 Core_test_flow_MP1b 2
+add pin to signal path 8 Core_test_flow_MP1b 0
+add pin to signal path 8 Core_test_flow_M0 0
+add pin to signal path 8 Core_test_flow_M0 2
+add pin to signal path 8 Core_test_flow_M11 0
+add pin to signal path 8 Core_test_flow_M11 2
+allocate signal path 9
+add pin to signal path 9 Core_test_flow_M3 2
+add pin to signal path 9 Core_test_flow_M3 0
+add pin to signal path 9 Core_test_flow_M6 0
+add pin to signal path 9 Core_test_flow_M6 2
+allocate signal path 10
+add pin to signal path 10 Core_test_flow_M1 2
+add pin to signal path 10 Core_test_flow_M1 0
+add pin to signal path 10 Core_test_flow_M9 0
+add pin to signal path 10 Core_test_flow_M9 2
+placement finished:  Core_test_flow runtime 20.782862424850464
+origin,  10100 10000
+node  Core_test_flow_MP1c 34800 21400
+Core_test_flow_MP1c Core_test_flow_MP1c 34800 21400 PLACEMENT
+node  Core_test_flow_M20 34800 17200
+Core_test_flow_M20 Core_test_flow_M20 34800 17200 PLACEMENT
+node  Core_test_flow_M7 42400 19200
+Core_test_flow_M7 Core_test_flow_M7 42400 19200 PLACEMENT
+node  Core_test_flow_M5 27200 19200
+Core_test_flow_M5 Core_test_flow_M5 27200 19200 PLACEMENT
+node  Core_test_flow_MP1a 17400 21400
+Core_test_flow_MP1a Core_test_flow_MP1a 17400 21400 PLACEMENT
+node  Core_test_flow_MP1b 47400 21400
+Core_test_flow_MP1b Core_test_flow_MP1b 47400 21400 PLACEMENT
+node  Core_test_flow_C1 43400 0
+Core_test_flow_C1 Core_test_flow_C1 43400 0 PLACEMENT
+node  Core_test_flow_C0 0 0
+Core_test_flow_C0 Core_test_flow_C0 0 0 PLACEMENT
+node  Core_test_flow_M10 33200 13400
+Core_test_flow_M10 Core_test_flow_M10 33200 13400 PLACEMENT
+node  Core_test_flow_M9 40600 14600
+Core_test_flow_M9 Core_test_flow_M9 40600 14600 PLACEMENT
+node  Core_test_flow_M6 29800 14600
+Core_test_flow_M6 Core_test_flow_M6 29800 14600 PLACEMENT
+node  Core_test_flow_M13 39600 1600
+Core_test_flow_M13 Core_test_flow_M13 39600 1600 PLACEMENT
+node  Core_test_flow_M12 32400 1600
+Core_test_flow_M12 Core_test_flow_M12 32400 1600 PLACEMENT
+node  Core_test_flow_M11 35600 5800
+Core_test_flow_M11 Core_test_flow_M11 35600 5800 PLACEMENT
+node  Core_test_flow_M4 39400 18000
+Core_test_flow_M4 Core_test_flow_M4 39400 18000 PLACEMENT
+node  Core_test_flow_M19 31000 5400
+Core_test_flow_M19 Core_test_flow_M19[INF 2025-12-22 14:03:16    26 sec]  Flow::GdsWriter:: Write circuit Core_test_flow layout to ./Core_test_flow.place.gds 
+[INF 2025-12-22 14:03:16    26 sec]  Flow::GdsWriter:: Write circuit Core_test_flow layout to ./Core_test_flow.place.gds 
+
+
+ 31000 5400 PLACEMENT
+node  Core_test_flow_M17 37400 9600
+Core_test_flow_M17 Core_test_flow_M17 37400 9600 PLACEMENT
+node  Core_test_flow_M15 32200 9600
+Core_test_flow_M15 Core_test_flow_M15 32200 9600 PLACEMENT
+node  Core_test_flow_M25 62000 15000
+Core_test_flow_M25 Core_test_flow_M25 62000 15000 PLACEMENT
+node  Core_test_flow_M23 6000 15000
+Core_test_flow_M23 Core_test_flow_M23 6000 15000 PLACEMENT
+node  Core_test_flow_M3 23600 15000
+Core_test_flow_M3 Core_test_flow_M3 23600 15000 PLACEMENT
+node  Core_test_flow_M1 44400 15000
+Core_test_flow_M1 Core_test_flow_M1 44400 15000 PLACEMENT
+node  Core_test_flow_M18 38600 5400
+Core_test_flow_M18 Core_test_flow_M18 38600 5400 PLACEMENT
+node  Core_test_flow_M0 50800 14600
+Core_test_flow_M0 Core_test_flow_M0 50800 14600 PLACEMENT
+node  Core_test_flow_M2 12400 14600
+Core_test_flow_M2 Core_test_flow_M2 12400 14600 PLACEMENT
+Adding GuardRing to Cell
+origin 10100 10000
+addPowerStripe length  72910 73850
+width 74250
+width 74600
+fWidth 74.6
+width,  75.0 height 1.8 vdd offset -1.0999999999999983 25.375
+width,  75.0 height 1.8 vss offset -1.0999999999999983 -3.5
+generated vdd
+generated vss
+
+
+
+
+ add vdd 
+metal  -1100 25375 73900 27175 36
+pin shape -1100 25375 73900 27175
+layer  6
+adjust bbox  1100 -25375 73900 27175
+
+
+
+
+ add vss 
+metal  -1100 -3500 73900 -1700 36
+pin shape -1100 -3500 73900 -1700
+layer  6
+adjust bbox  1100 3500 73900 -1700
+PnR: placement finished  Core_test_flow
+runtime  24.492021083831787
+runtime,  20.782862424850464
+addPin 0 False 0
+addShape2Pin 0 0 101500 39900 120900 40100
+addPin 1 False 0
+addShape2Pin 1 0 24700 39900 44100 40100
+addPin 2 False 0
+addShape2Pin 2 2 86700 -100 145700 320
+addPin 3 False 0
+addShape2Pin 3 0 81900 28700 85300 28900
+addPin 4 False 0
+addShape2Pin 4 0 89500 29500 97700 29700
+addPin 5 False 0
+addShape2Pin 5 0 77100 15500 83700 15700
+addPin 6 False 0
+addShape2Pin 6 2 -100 -100 58900 320
+addPin 7 False 0
+addShape2Pin 7 0 60300 28700 63700 28900
+addPin 8 False 0
+addShape2Pin 8 0 64300 23900 70900 24100
+addPin 9 False 0
+addShape2Pin 9 0 47900 29500 56100 29700
+addPin 10 False 0
+addShape2Pin 10 0 69500 47500 76100 47700
+addPin 11 False 0
+addShape2Pin 11 0 69500 39100 76100 39300
+addPin 12 False 0
+addShape2Pin 12 0 84700 43100 91300 43300
+addPin 13 False 0
+addShape2Pin 13 0 54300 43100 60900 43300
+addPin 14 False 0
+addShape2Pin 14 0 34700 47500 50900 47700
+addPin 15 False 0
+addShape2Pin 15 0 94700 47500 110900 47700
+addPin 16 True 0
+addShape2Pin 16 5 68700 41500 76900 41700
+addPin 17 True 0
+addShape2Pin 17 5 68700 33100 76900 33300
+addPin 18 True 0
+addShape2Pin 18 5 83900 37100 92100 37300
+addPin 19 True 0
+addShape2Pin 19 5 53500 37100 61700 37300
+addPin 20 True 0
+addShape2Pin 20 5 33900 41500 51700 41700
+addPin 21 True 0
+addShape2Pin 21 5 93900 41500 111700 41700
+addPin 22 True 0
+addShape2Pin 22 5 61100 9500 69300 9700
+addPin 23 True 0
+addShape2Pin 23 5 73900 17900 82100 18100
+addPin 24 True 0
+addShape2Pin 24 5 63500 17900 71700 18100
+addPin 25 True 0
+addShape2Pin 25 5 123100 28700 134500 28900
+addPin 26 True 0
+addShape2Pin 26 5 11100 28700 22500 28900
+addPin 27 True 0
+addShape2Pin 27 5 46300 28700 57700 28900
+addPin 28 True 0
+addShape2Pin 28 5 87900 28700 99300 28900
+addPin 29 True 0
+addShape2Pin 29 5 76300 9500 84500 9700
+addPin 30 True 1
+addShape2Pin 30 5 -2200 50750 147800 54350
+addPin 31 False 0
+addShape2Pin 31 0 61900 15500 68500 15700
+addPin 32 False 0
+addShape2Pin 32 0 74700 23900 81300 24100
+addPin 33 True 0
+addShape2Pin 33 5 66300 31100 79300 31300
+addPin 34 True 0
+addShape2Pin 34 5 81100 33500 86100 33700
+addPin 35 True 0
+addShape2Pin 35 5 59500 33500 64500 33700
+addPin 36 True 0
+addShape2Pin 36 5 79900 3100 80100 7300
+addPin 37 True 0
+addShape2Pin 37 5 65500 3100 65700 7300
+addPin 38 True 0
+addShape2Pin 38 5 71100 15900 74500 16100
+addPin 39 True 0
+addShape2Pin 39 5 79500 35500 81300 35700
+addPin 40 True 0
+addShape2Pin 40 5 123900 34700 133700 34900
+addPin 41 True 0
+addShape2Pin 41 5 11900 34700 21700 34900
+addPin 42 True 1
+addShape2Pin 42 5 -2200 -7000 147800 -3400
+addPin sub 43 True False
+addShape2Pin psub shape 5 -900 -900 146500 -700
+addPin 44 False 0
+addShape2Pin 44 0 70300 42300 75300 42500
+addPin 45 False 0
+addShape2Pin 45 0 74700 23500 81300 23700
+addPin 46 False 0
+addShape2Pin 46 0 64300 23500 70900 23700
+addPin 47 False 0
+addShape2Pin 47 0 70300 33900 75300 34100
+addPin 48 False 0
+addShape2Pin 48 0 61900 15100 68500 15300
+addPin 49 False 0
+addShape2Pin 49 0 77100 15100 83700 15300
+addPin 50 False 0
+addShape2Pin 50 0 85500 37900 90500 38100
+addPin 51 False 0
+addShape2Pin 51 0 66300 31500 79300 31700
+addPin 52 False 0
+addShape2Pin 52 0 81100 33900 86100 34100
+addPin 53 False 0
+addShape2Pin 53 0 59500 33900 64500 34100
+addPin 54 False 0
+addShape2Pin 54 0 78700 40700 82100 40900
+addPin 55 False 0
+addShape2Pin 55 0 35500 42300 50100 42500
+addPin 56 False 0
+addShape2Pin 56 0 11900 34300 21700 34500
+addPin 57 False 0
+addShape2Pin 57 0 47100 34700 56900 34900
+addPin 58 False 0
+addShape2Pin 58 0 26300 28700 42500 28900
+addPin 59 False 0
+addShape2Pin 59 0 95500 42300 110100 42500
+addPin 60 False 0
+addShape2Pin 60 0 123900 34300 133700 34500
+addPin 61 False 0
+addShape2Pin 61 0 88700 34700 98500 34900
+addPin 62 False 0
+addShape2Pin 62 0 103100 28700 119300 28900
+addPin 63 False 0
+addShape2Pin 63 2 86700 26880 145700 27300
+addPin 64 False 0
+addShape2Pin 64 0 124700 29500 132900 29700
+addPin 65 False 0
+addShape2Pin 65 2 -100 26880 58900 27300
+addPin 66 False 0
+addShape2Pin 66 0 12700 29500 20900 29700
+addPin 67 False 0
+addShape2Pin 67 0 67100 26300 78500 26500
+addPin 68 False 0
+addShape2Pin 68 0 71900 11100 73700 11300
+addPin 69 False 0
+addShape2Pin 69 0 101500 39500 120900 39700
+addPin 70 False 0
+addShape2Pin 70 0 24700 39500 44100 39700
+addPin 71 False 0
+addShape2Pin 71 0 79100 7900 80900 8100
+addPin 72 False 0
+addShape2Pin 72 0 71100 16300 74500 16500
+addPin 73 False 0
+addShape2Pin 73 0 65100 18700 70100 18900
+addPin 74 False 0
+addShape2Pin 74 0 77900 10300 82900 10500
+addPin 75 False 0
+addShape2Pin 75 0 64700 7900 66500 8100
+addPin 76 False 0
+addShape2Pin 76 0 62700 10300 67700 10500
+addPin 77 False 0
+addShape2Pin 77 0 75500 18700 80500 18900
+setwidth Core_test_flow INM 0.1
+setvia 2 1 2
+addNet netname INM width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  0 0
+setwidth Core_test_flow INP 0.1
+setvia 2 1 2
+addNet netname INP width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  1 1
+setwidth Core_test_flow OUTM 0.1
+setvia 2 1 2
+addNet netname OUTM width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  2 2
+addPin2Net  3 2
+addPin2Net  4 2
+addPin2Net  5 2
+setwidth Core_test_flow OUTP 0.1
+setvia 2 1 2
+addNet netname OUTP width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  6 3
+addPin2Net  7 3
+addPin2Net  8 3
+addPin2Net  9 3
+setwidth Core_test_flow VBIAS_P 0.1
+setvia 2 1 2
+addNet netname VBIAS_P width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  10 4
+addPin2Net  11 4
+addPin2Net  12 4
+addPin2Net  13 4
+addPin2Net  14 4
+addPin2Net  15 4
+setwidth Core_test_flow VDD 0.5
+setvia 4 2 2
+addNet netname VDD width 1000 cuts 4 isPower True rows 2 cols 2
+addPin2Net  16 5
+addPin2Net  17 5
+addPin2Net  18 5
+addPin2Net  19 5
+addPin2Net  20 5
+addPin2Net  21 5
+addPin2Net  22 5
+addPin2Net  23 5
+addPin2Net  24 5
+addPin2Net  25 5
+addPin2Net  26 5
+addPin2Net  27 5
+addPin2Net  28 5
+addPin2Net  29 5
+addPin2Net  30 5
+setwidth Core_test_flow VREF 0.1
+setvia 2 1 2
+addNet netname VREF width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  31 6
+addPin2Net  32 6
+setwidth Core_test_flow VSS 0.5
+setvia 4 2 2
+addNet netname VSS width 1000 cuts 4 isPower True rows 2 cols 2
+addPin2Net  33 7
+addPin2Net  34 7
+addPin2Net  35 7
+addPin2Net  36 7
+addPin2Net  37 7
+addPin2Net  38 7
+addPin2Net  39 7
+addPin2Net  40 7
+addPin2Net  41 7
+addPin2Net  42 7
+addPin2Net pubs ver 43 7
+setwidth Core_test_flow net020 0.1
+setvia 2 1 2
+addNet netname net020 width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  44 8
+addPin2Net  45 8
+addPin2Net  46 8
+setwidth Core_test_flow net028 0.1
+setvia 2 1 2
+addNet netname net028 width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  47 9
+addPin2Net  48 9
+addPin2Net  49 9
+setwidth Core_test_flow vbias_n 0.1
+setvia 2 1 2
+addNet netname vbias_n width 200 cuts 2 
+
+
+DrMgr::solve Start Detailed Routing
+DrSymmetry::solve Start max symmetric detection
+DrSymmetry::solve Sym:      INM INP
+DrSymmetry::solve Sym:      OUTM OUTP
+DrSymmetry::solve Self-sym: VBIAS_P
+DrSymmetry::solve Self-sym: VDD
+DrSymmetry::solve Self-sym: VREF
+DrSymmetry::solve Self-sym: VSS
+DrSymmetry::solve Self-sym: net020
+DrSymmetry::solve Self-sym: net028
+DrSymmetry::solve Self-sym: vbias_n
+DrSymmetry::solve Sym:      intm intp
+DrSymmetry::solve Sym:      net037 net047
+DrSymmetry::solve Self-sym: net7
+DrSymmetry::solve Sym:      vcmfb net025
+
+DrGridRoute::runNRR	Iteration 0 Unrouted nets 2,Parsing LEF file ../mockPDK/mock.lef
+Parsing Tech file ../mockPDK/mock.techfile
+Parsing placement GDS layout file ./Core_test_flow.place.gds
+AcsMgr::computeAcs Start Access Points Generation
+AcsMgr::computeAcs Start Access Points Generation
+ VDD VSS
+DrGridAstar::run	Route net VSS, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VSS, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VSS, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VSS, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net VSS, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net VSS, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net VSS, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net VDD, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VDD, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VDD, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VDD, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VDD, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VDD, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VDD, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net VDD, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridRoute::solveDR Solved!!!!
+
+DrGridRoute::runNRR	Iteration 0 Unrouted nets 14, net025 vcmfb net7 net047 net037 intp intm vbias_n net028 net020 OUTP OUTM VBIAS_P VREF
+DrGridAstar::run	Route net VREF, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VREF, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net net020, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net vbias_n, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net vbias_n, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net net028, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net VBIAS_P, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net net7, Sym: 0, SelfSym: 1, StrictDRC: 1 
+DrGridAstar::run	Route net vcmfb, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net vcmfb, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net vcmfb, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net net025, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net net025, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net net025, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net intm, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net intp, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net net037, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net net047, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net OUTM, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net OUTM, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net OUTP, Sym: 1, SelfSym: 0, StrictDRC: 1 
+DrGridAstar::run	Route net OUTP, Sym: 0, SelfSym: 0, StrictDRC: 1 
+DrGridRoute::solveDR Solved!!!!
+Net INM 1-pin ignored
+Net INP 1-pin ignored
+Net OUTM, wl: 38000, #via: 5, area: 9827200.00, degSym: 0.93
+Net OUTP, wl: 40800, #via: 5, area: 10580800.00, degSym: 0.86
+Net VBIAS_P, wl: 63200, #via: 0, area: 13360000.00, degSym: 1.00
+Net VDD, wl: 314800, #via: 0, area: 336800000.00, degSym: 0.97
+Net VREF, wl: 14800, #via: 0, area: 3120000.00, degSym: 0.00
+Net VSS, wl: 290800, #via: 0, area: 306800000.00, degSym: 0.65
+Net net020, wl: 46400, #via: 4, area: 11638400.00, degSym: 1.00
+Net net028, wl: 52800, #via: 8, area: 14262400.00, degSym: 1.00
+Net vbias_n, wl: 19600, #via: 0, area: 4280000.00, degSym: 0.45
+Net intm, wl: 30800, #via: 2, area: 7539200.00, degSym: 1.00
+Net intp, wl: 30800, #via: 2, area: 7539200.00, degSym: 1.00
+Net net037, wl: 4400, #via: 2, area: 1825600.00, degSym: 1.00
+Net net047, wl: 4400, #via: 2, area: 1825600.00, degSym: 1.00
+Net net7, wl: 108000, #via: 4, area: 24051200.00, degSym: 1.00
+Net vcmfb, wl: 28000, #via: 2, area: 6865600.00, degSym: 0.27
+Net net025, wl: 25200, #via: 2, area: 6419200.00, degSym: 0.30
+---------- Anaroute             total  time usage -----------
+Real: 2.533796s; User: 2.464683s; System: 0.058950s
+
+Total wl: 1112800, Total #via: 38, Total Sym wl: 931200, Total degSym: 0.8368, Avg degSym: 0.7773
+
+isPower False rows 1 cols 2
+addPin2Net  50 10
+addPin2Net  51 10
+addPin2Net  52 10
+addPin2Net  53 10
+addPin2Net  54 10
+setwidth Core_test_flow intm 0.1
+setvia 2 1 2
+addNet netname intm width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  55 11
+addPin2Net  56 11
+addPin2Net  57 11
+addPin2Net  58 11
+setwidth Core_test_flow intp 0.1
+setvia 2 1 2
+addNet netname intp width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  59 12
+addPin2Net  60 12
+addPin2Net  61 12
+addPin2Net  62 12
+setwidth Core_test_flow net037 0.1
+setvia 2 1 2
+addNet netname net037 width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  63 13
+addPin2Net  64 13
+setwidth Core_test_flow net047 0.1
+setvia 2 1 2
+addNet netname net047 width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  65 14
+addPin2Net  66 14
+setwidth Core_test_flow net7 0.1
+setvia 2 1 2
+addNet netname net7 width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  67 15
+addPin2Net  68 15
+addPin2Net  69 15
+addPin2Net  70 15
+setwidth Core_test_flow vcmfb 0.1
+setvia 2 1 2
+addNet netname vcmfb width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  71 16
+addPin2Net  72 16
+addPin2Net  73 16
+addPin2Net  74 16
+setwidth Core_test_flow net025 0.1
+setvia 2 1 2
+addNet netname net025 width 200 cuts 2 isPower False rows 1 cols 2
+addPin2Net  75 17
+addPin2Net  76 17
+addPin2Net  77 17
+routing grid off set -800 -5200
+PnR: routing finished  Core_test_flow
+Writing Routing GDS Layout ./Core_test_flow.route.gds
+Writing Dumb File ./Core_test_flow.ioPin

@@ -1,0 +1,68 @@
+#***********************************************************************
+# Stream IO Layer Mapping File
+#***********************************************************************
+#       Virtuoso        Virtuoso        Stream          Stream
+#       Layer Name      Purpose Name    Layer Number    Data Type
+#-----------------------------------------------------------------------
+NW                  drawing          3               0
+OD                  drawing          6               0
+VTL_N               drawing          12              0
+VTL_P               drawing          13              0
+PO                  drawing          17              0
+OD_25               drawing          18              0
+PP                  drawing          25              0
+NP                  drawing          26              0
+RPO                 drawing          29              0
+CO                  drawing          30              0
+M1                  drawing          31              0
+M2                  drawing          32              0
+M3                  drawing          33              0
+M4                  drawing          34              0
+M5                  drawing          35              0
+M6                  drawing          36              0
+M7                  drawing          37              0
+M8                  drawing          38              0
+M9                  drawing          39              0
+M10                 drawing          40              0
+VIA1                drawing          51              0
+VIA2                drawing          52              0
+VIA3                drawing          53              0
+VIA4                drawing          54              0
+VIA5                drawing          55              0
+VIA6                drawing          56              0
+VIA7                drawing          57              0
+VIA8                drawing          58              0
+VIA9                drawing          59              0
+TECHDB              drawing          63              0
+VTH_N               drawing          67              0
+VTH_P               drawing          68              0
+RPDMY               drawing          115             0
+RH                  drawing          117             0
+MRDMY               drawing          150             0
+TSV_PPI             drawing          155             0
+STDPIN              drawing          171             0
+LVS_DUMMY           drawing          208             0
+#***********************************************************************
+# Comments:
+# NW: N-Well (PMOS body)
+# OD: Oxide Diffusion (Active region)
+# VTL_N: Vt Low N (Threshold voltage adjustment for NMOS)
+# VTL_P: Vt Low P (Threshold voltage adjustment for PMOS)
+# PO: Poly-Silicon (Gate)
+# OD_25: Oxide Diffusion 25 (Active region variant)
+# PP: P+ Implant (Source/Drain for PMOS)
+# NP: N+ Implant (Source/Drain for NMOS)
+# RPO: Resist Protection Oxide (ESD protection)
+# CO: Contact (Base to M1)
+# M1-M10: Metal Layers (Interconnect)
+# VIA1-VIA9: Via Layers (Metal interconnections)
+# TECHDB: Technology Database Layer
+# VTH_N: Vt High N (High threshold for NMOS)
+# VTH_P: Vt High P (High threshold for PMOS)
+# RPDMY: Resist Protection Dummy
+# RH: Resist High
+# MRDMY: Metal Resist Dummy
+# TSV_PPI: Through-Silicon Via PPI
+# STDPIN: Standard Pin
+# LVS_DUMMY: LVS Dummy Layer
+#***********************************************************************
